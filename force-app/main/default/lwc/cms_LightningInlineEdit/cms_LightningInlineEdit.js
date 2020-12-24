@@ -121,6 +121,7 @@ export default class Cms_LightningInlineEdit extends LightningElement {
             
             }
         alert(arr);
+        console.log('>>');
         console.log(this.splitdtdata.length);
         if(this.splitdtdata.length>=1){             
             this.splitdtdata.splice(event.target.dataset.row,1);
